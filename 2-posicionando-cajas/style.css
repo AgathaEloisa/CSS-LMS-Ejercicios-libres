@@ -1,0 +1,51 @@
+/* big box */
+.red_box, .blue_box {
+    width: 18em;
+    height: 18em;
+    position: relative;
+}
+
+/* medium box */
+.purple_box, .green_box {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 4em;
+    left: 4em;
+}
+
+/* small box */
+.yellow_box, .black_box {
+    width: 4em;
+    height: 4em;
+}
+
+/* first box */
+.red_box {
+    background-color: rgb(255, 0, 0);
+}
+
+.purple_box {
+    background-color: rgb(131, 30, 145);
+}
+
+.yellow_box {
+    background-color: yellow;
+}
+
+/* Second box */
+.blue_box {
+    margin-top: 1em;
+    background-color: rgb(83, 24, 221);
+}
+
+.green_box {
+    background-color: green;
+}
+
+.black_box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
