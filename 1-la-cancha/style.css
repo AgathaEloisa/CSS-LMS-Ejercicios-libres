@@ -1,0 +1,66 @@
+body {
+    width: 40em;
+    height: 21em;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.soccer_field {
+    height: 21em;
+    background-color: rgb(147, 202, 147);
+    position: relative;
+}
+
+.limit {
+    width: 38em;
+    height: 19em;
+    border: .3em solid #ffffff;
+    /* the next block works together */
+    position: absolute;
+    top: .7em;
+    right: .7em;
+}
+
+.arc, .circle{
+    width:4em;
+    height: 8em;
+    border:.3em solid #ffffff;
+    position: absolute;
+    bottom: 28%;
+}
+
+.arc:first-child {
+    border-left: none;
+    left: 0;
+}
+.arc:last-child {
+    border-right: none;
+    right: 0;
+}
+ 
+.circle {
+    border-radius: 100%;
+    width: 8em;
+    left: 40%;
+}
+
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    border: .5em solid #e6e3e3;
+    left: 9%;
+    top: 28%;
+    box-shadow: .1em .1em .1em #666;  
+}
+
+/* position second ball */
+.ball:nth-child(2) { 
+    left: 52%;
+    top: 11%;
+}
+
+/* position third ball */
+.ball:nth-child(3) { 
+    left: 85%;
+    top: 62%;
+}
