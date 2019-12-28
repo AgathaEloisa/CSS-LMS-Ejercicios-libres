@@ -1,0 +1,76 @@
+/* container */
+body {
+    position: absolute;
+    margin: .1em;
+    border: .1em solid black;
+}
+
+/* texts and titles */
+h1 {
+    font-size: 1em;
+    text-align: center;
+}
+
+#header h1 {
+    font-weight: lighter;
+}
+
+.box_text h1 {
+    padding-bottom: 1.5em;
+}
+
+.box_text p {
+    font-size: .9em;
+    text-align: justify;
+}
+
+/* box style */
+#header {
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: .1em solid black;
+}
+
+#header,
+#footer {
+    background-color: rgb(255, 192, 19);
+}
+
+#footer {
+    bottom: 0;
+    text-align: center;
+    font-size: .8em;
+    font-weight: bold;
+    height: 2em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: .1em solid black;
+}
+
+#footer span {
+    color: purple;
+    text-decoration: underline;
+}
+
+/* content inside the triptych */
+.box_text {
+    padding: 2em;
+    padding-bottom: 1.5em;
+    float: left;
+    width: 27%;
+}
+
+.box_text img {
+    width: 100%;
+}
+
+#box_2 {
+    border: .1em solid black;
+    border-top: none;
+    border-bottom: none;
+    padding-bottom: 18em;
+}
